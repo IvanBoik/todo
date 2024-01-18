@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="74dac4c6-6a90-4e97-ab52-ece657f14d61" name="fedora">
+        <fileTransfer accessType="SFTP" host="127.0.0.1" port="2222" sshConfigId="ebbd4e3c-e177-49a1-87d5-1929f89a2f14" sshConfig="ivan@127.0.0.1:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c5148995-ed59-401f-bc8e-d01d56d83558" name="fedora_ivan">
+        <fileTransfer accessType="SFTP" host="127.0.0.1" port="2222" sshConfigId="ebbd4e3c-e177-49a1-87d5-1929f89a2f14" sshConfig="ivan@127.0.0.1:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="fa11e3f1-713e-46a1-a77b-a0e983825dbf" name="fedora_for_ais">
+        <fileTransfer accessType="SFTP" host="127.0.0.1" port="2222" sshConfigId="ebbd4e3c-e177-49a1-87d5-1929f89a2f14" sshConfig="ivan@127.0.0.1:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

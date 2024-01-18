@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <changeSet logicalFilePath="2023-12-19-2-create-table-task"
+               id="2023-12-19-2-create-table-task" author="boiko">
+        <createTable tableName="tasks">
+            <column name="id" type="serial">
+                <constraints nullable="false" primaryKey="true"/>
+            </column>
+            <column name="id_user" type="int">
+                <constraints nullable="false"
+                             foreignKeyName="tasks_id_user_fkey"
+                             references="users(id)"/>
+            </column>
+            <column name="title" type="varchar(500)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" type="varchar">
+                <constraints nullable="true"/>
+            </column>
+            <column name="deadline_date" type="date">
+                <constraints nullable="true"/>
+            </column>
+            <column name="deadline_time" type="time">
+                <constraints nullable="true"/>
+            </column>
+            <column name="priority" type="int" defaultValue="4">
+                <constraints nullable="true"/>
+            </column>
+            <column name="date_added" type="timestamp">
+                <constraints nullable="false"/>
+            </column>
+            <column name="is_done" type="boolean" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+
+</databaseChangeLog>

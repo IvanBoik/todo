@@ -1,0 +1,33 @@
+.logs-page-without-side-bar{
+    width: 85%;
+    margin-left: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logs-day{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    min-width: 500px;
+}
+.logs-in-day{
+    margin-top: 50px;
+}
+.logs-in-day:first-child{
+    margin-top: 10px;
+}
+.log{
+    margin-top: 30px;
+    border: solid 1px black;
+    padding-inline: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.log-description{
+    font-size: 16px;
+}
+.log-time{
+    font-size: 14px;
+}

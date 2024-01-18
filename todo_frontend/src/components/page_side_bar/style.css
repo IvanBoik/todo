@@ -1,0 +1,32 @@
+.page-side-bar-container{
+    width: 15%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: whitesmoke;
+    position: fixed;
+}
+.logo{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link{
+    width: 90%;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.link:hover{
+    background: antiquewhite;
+}
+.link:active{
+    background: rgba(255, 192, 203, 0.5);
+    color: firebrick;
+}

@@ -1,0 +1,85 @@
+.auth-page-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-block{
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+}
+.switch-buttons{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.switch-button{
+    background: none;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    border: solid 1px black;
+}
+.login-inputs{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.reg-inputs{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.input-with-label{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.auth-page-input{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 40px;
+    background-color: rosybrown;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.reg-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 10px;
+    background-color: rosybrown;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
