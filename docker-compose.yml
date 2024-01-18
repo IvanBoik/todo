@@ -13,7 +13,7 @@ services:
   backend:
     image: backend
     build:
-      context: ./todo_list/.
+      context: ./todo_backend/.
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
